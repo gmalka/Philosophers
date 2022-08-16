@@ -17,9 +17,9 @@ The program expects 5 or 4 parameters as arguments:
 # Output
 
 Every philosopher should eat and sleep, if he can't then he thinks.  
-In order to eat, a philosopher needs 2 forks, but every philosopher has
-only one fork, but in for eating they need 2 forks, so the philosopher has to borrow a fork from a neighbor.  
-If the philosopher has not had time to eat during his lifetime, then he dies and the simulation stops
+In order to eat, a philosopher needs 2 forks for eat, but every philosopher has
+only one fork, so the philosopher has to borrow a fork from a neighbor.  
+If the philosopher did not have time to eat during his lifetime, then he dies, and the simulation stops.
 ```
 ./philosopher 4 600 200 200 1  
 0 1 is thinking
@@ -40,3 +40,5 @@ If the philosopher has not had time to eat during his lifetime, then he dies and
 200 1 is eating
 200 Done
 ```
+
+Program work with thread in main part and with forks in bonus part.
